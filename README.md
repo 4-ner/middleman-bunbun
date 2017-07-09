@@ -18,5 +18,12 @@ middleman-bunbun is a boilerplate of middleman using using Haml
     $ yarn install
     $ bundle install --path vendor/bundle
 
+#### develop
+
+    $ bundle exec middleman server
+
+#### build
+
+    $ bundle exec middleman build
 
 # :tada: Are you ready to the party :tada:
