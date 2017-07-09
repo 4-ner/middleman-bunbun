@@ -1,0 +1,37 @@
+body {
+  background: #ECC561;
+  text-align: center;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.drinking {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #a6d900 0%, #ff4454 100%);
+  opacity: 0.5;
+  animation: huerotator 3s infinite alternate;
+}
+.bunbun{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%); /* Safari用 */
+  transform: translate(-50%, -50%);
+}
+
+
+@keyframes huerotator {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
