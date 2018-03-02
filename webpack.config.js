@@ -3,7 +3,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var Clean = require('clean-webpack-plugin');
 module.exports = {
   entry: {
-    site: [
+    bundle: [
       './source/stylesheets/site.css.scss',
       './source/javascripts/site.js'
     ],
